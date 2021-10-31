@@ -42,6 +42,12 @@ namespace WpfApp1
             WindowVeriety ver = new WindowVeriety();
             ver.Show();
         }
+
+        private void Phone_Click(object sender, RoutedEventArgs e)
+        {
+            WindowPhone phone = new WindowPhone();
+            phone.Show();
+        }
         //private void Reg_OnClick(object sender, RoutedEventArgs e)
         //{
         //    WindowReg wReg = new WindowReg();

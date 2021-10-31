@@ -54,16 +54,7 @@ namespace WpfApp1.model
                 }
             }
 
-            //OrgLegViewModel vmLeg = new OrgLegViewModel();
-            //int LegId = 0;
-            //foreach (var leg in vmLeg.ListLeg)
-            //{
-            //    if (leg.NameShort == comp.OrgLegFormID)
-            //    {
-            //        LegId = leg.ID;
-            //        break;
-            //    }
-            //}
+          
 
             if ((statid != 0) && (verietyid != 0))
             {

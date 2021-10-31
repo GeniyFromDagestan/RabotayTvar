@@ -19,6 +19,9 @@
     <Compile Update="View\WindowPerson.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\WindowPhone.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="View\WindowStatus.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -40,6 +43,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\WindowPerson.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\WindowPhone.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\WindowStatus.xaml">

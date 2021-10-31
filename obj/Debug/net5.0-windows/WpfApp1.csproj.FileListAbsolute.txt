@@ -32,3 +32,5 @@ C:\Users\Pushka\source\repos\WpfApp1\obj\Debug\net5.0-windows\View\WindowNewStat
 C:\Users\Pushka\source\repos\WpfApp1\obj\Debug\net5.0-windows\View\WindowStatus.baml
 C:\Users\Pushka\source\repos\WpfApp1\obj\Debug\net5.0-windows\View\WindowVeriety.baml
 C:\Users\Pushka\source\repos\WpfApp1\obj\Debug\net5.0-windows\View\WindowNewVeriety.baml
+C:\Users\Pushka\source\repos\WpfApp1\obj\Debug\net5.0-windows\View\WindowPhone.g.cs
+C:\Users\Pushka\source\repos\WpfApp1\obj\Debug\net5.0-windows\View\WindowPhone.baml

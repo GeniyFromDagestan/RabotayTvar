@@ -7,17 +7,17 @@ using WpfApp1.model;
 
 namespace WpfApp1.Helper
 {
-    class FindVeriety
-    {
-        int id;
-        public FindVeriety(int id)
-        {
-            this.id = id;
-        }
-        public bool VerietyPredict(VerietyPerson ver)
-        {
-            return ver.ID == id;
-        }
+    //class FindVeriety
+    //{
+    //    int id;
+    //    public FindVeriety(int id)
+    //    {
+    //        this.id = id;
+    //    }
+    //    public bool VerietyPredict(VerietyPerson ver)
+    //    {
+    //        return ver.ID == id;
+    //    }
 
-    }
+    //}
 }

@@ -20,9 +20,9 @@
                 <GridView>
                     <GridView.Columns>
                         <GridViewColumn Header="ID" Width="50" 
-                                        DisplayMemberBinding="{Binding ID}" />
+                                        DisplayMemberBinding="{Binding ID}"/>
                         <GridViewColumn Header="Вид сотрудника" 
-                                        DisplayMemberBinding="{Binding VerietyID}" />
+                                        DisplayMemberBinding="{Binding VerieryID}" />
                         <GridViewColumn Header="Статус"  
                                         DisplayMemberBinding="{Binding StatusID}" />
                         <GridViewColumn Header="ИНН" 

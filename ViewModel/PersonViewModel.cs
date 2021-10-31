@@ -11,6 +11,7 @@ namespace WpfApp1.ViewModel
     class PersonViewModel
     {
         public ObservableCollection<Person> ListPerson { get; set; } = new ObservableCollection<Person>();
+        public static ObservableCollection<Person> StaticListPerson;
         public PersonViewModel()
         {
             this.ListPerson.Add(new Person
@@ -22,7 +23,7 @@ namespace WpfApp1.ViewModel
                 Type = "bb",
                 Shifer = 14214,
                 Data = new DateTime(2000, 05, 10)
-            }) ;
+            });
             this.ListPerson.Add(new Person
             {
                 ID = 2,
@@ -33,6 +34,7 @@ namespace WpfApp1.ViewModel
                 Shifer = 22,
                 Data = new DateTime(1999, 06, 20)
             });
+            StaticListPerson = ListPerson;
         }
         public int MaxId()
         {
@@ -49,3 +51,4 @@ namespace WpfApp1.ViewModel
 
     }
 }
+
